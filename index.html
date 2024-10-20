@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>United Bank for Africa</title>
+    <link rel="icon" href="icons/UBA-logo.png">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<!--This is the main parent tag, holding other tags  -->
+<main id="main">
+    
+
+    <div id="logo-icon">
+        <img src="icons/UBA-logo.png" alt="logo">
+        <h1 id="logo-header">United Bank for Africa</h1>
+    </div>
+
+    <!--  This Section is for Creating Account -->
+    <section class="forms">
+        <h2>Create an Account</h2>
+        <input type="text" id="createAccountName" placeholder="Enter your full name">
+        <button onclick="createAccount()">Create Account</button>
+    </section>
+
+    <!-- This Section is for Deposit  -->
+    <section class="forms">
+        <h2>Deposit Money</h2>
+        <input type="text" id="depositAccount" placeholder="Enter your account number">
+        <input type="number" id="depositAmount" placeholder="Enter amount to deposit">
+        <button onclick="deposit()">Deposit</button>
+    </section>
+
+    <!--  This Section is for Transfer -->
+    <section class="forms">
+        <h2>Transfer Money</h2>
+        <input type="text" id="transferFromAccount" placeholder="Enter your account number">
+        <input type="text" id="transferToAccount" placeholder="Enter recipient's account number">
+        <input type="number" id="transferAmount" placeholder="Enter amount to transfer">
+        <button onclick="transfer()">Transfer</button>
+    </section>
+
+    <!--  This Section is for Requesting Loan -->
+    <section class="forms">
+        <h2>Get Loan</h2>
+        <input type="text" id="loanAccount" placeholder="Enter your account number">
+        <input type="number" id="loanAmount" placeholder="Enter loan amount">
+        <button onclick="getLoan()">Get Loan</button>
+    </section>
+
+    <!-- Account Information displays here-->
+    <div class="account-info" id="accountInfo"></div>
+</main>
+
+<script src="script.js"></script>
+
+</body>
+</html>

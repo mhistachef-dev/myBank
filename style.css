@@ -1,0 +1,51 @@
+body {
+    background-color: #aa0101;
+    font-family: Arial, sans-serif;
+}
+#main {
+    width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+    
+img{
+    width: 40px;
+    height: 40px;
+    
+}
+
+#logo-icon{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+#logo-header{
+    margin: 0;
+    padding-left: 20px;
+}
+
+
+.forms {
+    margin-bottom: 15px;
+}
+.forms label {
+    display: block;
+    margin-bottom: 5px;
+}
+.forms input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+.forms button {
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.account-info {
+    margin-top: 20px;
+}
+.account-info p {
+    margin: 5px 0;
+}
