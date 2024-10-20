@@ -51,57 +51,35 @@ img{
     margin: 5px 0;
 }
 
-@media screen(min-width: 414px) {
-    
 
-    
+
+@media only screen and (max-width: 375px) {
     #main {
-    width: 60%;
-    margin: 0 auto;
-    padding: 10px;
+        width: 100%;
+        padding: 10px;
     }
 
-    img{
-    width: 15px;
-    height: 15px;
-    
-}
+    img {
+        width: 30px;
+        height: 30px;
+    }
 
-#logo-icon{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    
-}
+    #logo-header {
+        padding-left: 10px;
+    }
 
-#logo-header{
-    margin: 0;
-    padding-left: 10px;
-}
+    .forms input {
+        padding: 8px;
+    }
 
+    .forms button {
+        width: 100%;
+        padding: 8px 10px;
+    }
 
-.forms {
-    margin-bottom: 8px;
-}
-.forms label {
-    display: block;
-    margin-bottom: 5px;
-}
-.forms input {
-    width: 100%;
-    padding: 5px;
-    margin-bottom: 2px;
-}
-.forms button {
-    padding: 5px 10px;
-    cursor: pointer;
-}
-.account-info {
-    margin-top: 5px;
-}
-.account-info p {
-    margin: 3px 0;
-}
+    .account-info {
+        margin-top: 10px;
+    }
 }
 
 
