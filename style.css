@@ -51,11 +51,11 @@ img{
 }
 
 @media screen(min-width: 414px) {
-     width: 50px;
+    
 
     
     #main {
-    width: 214px;
+    width: 100%;
     margin: 0 auto;
     padding: 10px;
     }
