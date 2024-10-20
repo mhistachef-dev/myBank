@@ -51,8 +51,8 @@ img{
 }
 
 @media screen(min-width: 414px) {
-     width: 50%;
-    height: 100%;
+     width: 50px;
+
     
     #main {
     width: 214px;
