@@ -55,7 +55,9 @@ img{
 
 @media only screen and (max-width: 375px) {
     #main {
-        width: 100%;
+        box-sizing: border-box;
+        
+        width: 100vh;
         padding: 10px;
         margin-left: 14px;
         font-size: 8px;
